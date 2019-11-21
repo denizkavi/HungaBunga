@@ -53,8 +53,8 @@ linear_models_n_params = [
 linear_models_n_params_small = linear_models_n_params
 
 svm_models_n_params = [
-    (SVC,
-     {'C':C, 'kernel': kernel, 'degree': degree, 'gamma': gamma, 'coef0': coef0, 'shrinking': shrinking, 'tol': tol, 'max_iter': max_iter_inf2}),
+    #(SVC,
+     #{'C':C, 'kernel': kernel, 'degree': degree, 'gamma': gamma, 'coef0': coef0, 'shrinking': shrinking, 'tol': tol, 'max_iter': max_iter_inf2}),
 
     (NuSVC,
      {'nu': nu, 'kernel': kernel, 'degree': degree, 'gamma': gamma, 'coef0': coef0, 'shrinking': shrinking, 'tol': tol
@@ -67,8 +67,8 @@ svm_models_n_params = [
 ]
 
 svm_models_n_params_small = [
-    (SVC,
-     {'C':C, 'kernel': kernel, 'degree': degree, 'gamma': gamma, 'coef0': coef0, 'shrinking': shrinking, 'tol': tol, 'max_iter': max_iter_inf2}),
+    #(SVC,
+     #{'C':C, 'kernel': kernel, 'degree': degree, 'gamma': gamma, 'coef0': coef0, 'shrinking': shrinking, 'tol': tol, 'max_iter': max_iter_inf2}),
 
     (NuSVC,
      {'nu': nu, 'kernel': kernel, 'degree': degree, 'gamma': gamma, 'coef0': coef0, 'shrinking': shrinking, 'tol': tol
